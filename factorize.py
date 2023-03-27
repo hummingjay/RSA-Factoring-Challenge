@@ -38,4 +38,4 @@ with open(file_name, 'r') as file:
         number = factors(int(line.strip()))
 
         # output result for the line
-        print("{} = {} * {}".format(line.strip(), number[0], number[1]))
+        print("{}={}*{}".format(line.strip(), number[0], number[1]))
