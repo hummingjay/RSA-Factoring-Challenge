@@ -1,3 +1,2 @@
 #!/bin/bash
-# the $1 is to take in the argument
 python3 factorize.py $1
