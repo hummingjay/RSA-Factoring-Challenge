@@ -18,9 +18,9 @@ def factors(num):
     # range start to stop
     for i in range(2, num + 1):
         if num % i == 0:
-            a = i
+            b = i
             # // always returns an integer
-            b = num // i
+            a = num // i
             return a, b
         else:
             a = num
